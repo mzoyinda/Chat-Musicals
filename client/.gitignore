@@ -6,7 +6,7 @@
 .pnp.js
 
 /data
-/keep
+/src/keep
 /App.css
 
 # testing
