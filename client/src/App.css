@@ -1,0 +1,93 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  display: flex;
+  background: 333;
+  min-height: 100vh;
+  /* background-image: url("./music.jpg"); */
+ 
+  /* background: linear-gradient(135deg, #000000 0%, #333 48%, #686868 100%); */
+  background-size: contain;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-player {
+  max-width: 750px;
+  position: relative;
+  overflow: hidden;
+}
+.video-player h1{
+  color: white;
+  background: linear-gradient(135deg, #000000 0%, #333 48%, #686868 100%);
+  font-family: cursive;
+  margin: 0;
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+.video {
+  width: 100%;
+}
+
+.player-controls {
+ text-align: center;
+} 
+
+
+
+.play-button {
+  width: 10%;
+  border: none;
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+.play-button:focus {
+  outline: none;
+}
+
+.stop-button {
+  width: 10%;
+  border: none;
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+.stop-button:focus {
+  outline: none;
+}
+
+.rewind-button {
+  width: 10%;
+  border: none;
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+.rewind-button:focus {
+  outline: none;
+}
+.fast-button {
+  width: 10%;
+  border: none;
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+.fast-button:focus {
+  outline: none;
+}
