@@ -11,7 +11,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import Fab from '@material-ui/core/Fab';
 import SendIcon from '@material-ui/icons/Send';
 
-const socket = io('http://localhost:7000')
+const socket = io('https://musicals-backend.herokuapp.com/')
 const userName = 'User ' + parseInt(Math.random() * 10)
 
 const useStyles = makeStyles({
