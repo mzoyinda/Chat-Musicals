@@ -12,8 +12,8 @@ io.on("connection", (socket) => {
   console.log("connection made successfully");
   socket.on("message", (payload) => {
     console.log("Message received on server: ", payload);
-    setInterval(() => io.emit( io.emit("message", payload)), 1000);
-    // io.emit("message", payload);
+    // setInterval(() => io.emit( io.emit("message", payload)), 1000);
+    io.emit("message", payload);
   });
 });
 
